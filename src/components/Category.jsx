@@ -7,10 +7,6 @@ const Category = (props) => {
     <section className="category">
       <h2>{title}</h2>
       <Previews previews={preview} />
-      {/* <div>
-        <img src={preview[0]} />
-        <img src={preview[1]} />
-      </div> */}
     </section>
   );
 };
