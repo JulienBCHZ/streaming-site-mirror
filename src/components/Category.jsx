@@ -2,10 +2,10 @@ import Previews from "./Previews";
 
 const Category = (props) => {
   const { title, preview, index } = props;
-  //   console.log("TAB:", preview);
+
   return (
     <section className="category">
-      <h1>{title}</h1>
+      <h2>{title}</h2>
       <Previews previews={preview} />
       {/* <div>
         <img src={preview[0]} />

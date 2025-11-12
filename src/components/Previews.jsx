@@ -4,10 +4,8 @@ const Previews = (props) => {
   return (
     <div className="previews">
       {tab.map((element) => {
-        return <img src={element} alt="movie picture" />;
+        return <img src={element} alt="show picture" />;
       })}
-      {/* <img src={preview[0]} />
-      <img src={preview[1]} /> */}
     </div>
   );
 };
